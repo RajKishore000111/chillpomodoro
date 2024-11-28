@@ -1,0 +1,113 @@
+/* General Styles */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500;700&family=Roboto+Mono:wght@300;400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: linear-gradient(145deg, #ffe9f3, #d6eaff); /* Light pink to light blue */
+  color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styles */
+.container {
+  text-align: center;
+  background: #f7faff; /* Very light blue */
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+}
+
+/* Header */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+  color: #ff6b81; /* Coral pink */
+  text-shadow: 0 2px 5px rgba(255, 107, 129, 0.3);
+}
+
+/* Timer */
+.timer {
+  margin: 1rem 0;
+  padding: 1.5rem;
+  background: #e8f0fc; /* Pale blue */
+  border-radius: 10px;
+  box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.time-display {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: #333;
+  letter-spacing: 3px;
+  text-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Settings */
+.settings {
+  margin-bottom: 1.5rem;
+}
+
+.settings input {
+  padding: 0.7rem;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  border: 2px solid #ff9caa; /* Softer coral pink */
+  border-radius: 5px;
+  outline: none;
+  background: #fdfdff; /* White with a hint of blue */
+  color: #333;
+  box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+.settings input:focus {
+  border-color: #ff6b81;
+}
+
+.settings button {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  background-color: #ff9caa; /* Softer coral pink */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(255, 156, 170, 0.5);
+}
+
+.settings button:hover {
+  background-color: #f78897;
+  transform: scale(1.05);
+}
+
+/* Controls */
+.controls button {
+  margin: 0.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  background-color: #3c31b2; /* Light cyan */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  box-shadow: 0 4px 8px rgba(162, 215, 255, 0.5);
+}
+
+.controls button:hover {
+  background-color: #82c4f3;
+  transform: scale(1.05);
+}
